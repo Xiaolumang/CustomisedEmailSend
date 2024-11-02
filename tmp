@@ -1,0 +1,31 @@
+<subject>This email is for testing purposes.</subject>
+<skeleton>
+<p><b>[salutation]</b></p>
+
+<p>I hope you are doing well.</p>
+I don't think I've mentioned this, but I find you to be the most friendly person on the PMO team!
+I was also wondering if I could see you at the office tomorrow at <b>[meeting_time]</b>?
+
+<p>Best regards,</p>
+
+<p></p>
+<p><b>[sender]</b></p>
+[signature]
+</skeleton>
+
+<recipients>
+Liliana Guzman <fenglu.cai@salvationarmy.org.au>; 
+Kelly Dauria <kelly.dauria@salvationarmy.org.au>; 
+Jordan Trainor <jordan.trainor@salvationarmy.org.au>; 
+Shim Marom <shim.marom@salvationarmy.org.au>
+Fenglu Cai <fenglu.cai@salvationarmy.org.au>
+
+</recipients>
+
+<meeting_time>
+Liliana 2:00pm
+Kelly 3:00pm
+Shim 4:00pm
+Jordan 4:30pm
+Fenglu 5:00pm
+</meeting_time>
