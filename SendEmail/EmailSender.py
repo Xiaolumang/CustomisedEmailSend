@@ -22,7 +22,7 @@ class Email:
         self.email_address = None
 
     def get_email_json(self):
-        print(self.body)
+        #print(self.body)
         email_data = {
         "message": {
         "subject": f'{self.subject}',
@@ -156,18 +156,18 @@ class EmailSender:
         access_token = oauthInstance.getAccessToken()
 
         email_body_builder = EmailBodyBuilder()
-        email_body_builder.set_skeleton(requirements['skeleton'])
+        
 
         sender = get_sender_name(access_token)
 
         for x in requirements['recipients'].split(";"):
             if x:
+                email_body_builder.set_skeleton(requirements['skeleton'])
                 email_address = re.search(r'<(.*)>',x).group(1)
                 name = re.search(r'(\w+)\s\w+',x).group(1)
           
                 salutation = f'Hi {name},'
                 meeting_time = requirements['meeting_time']
-
 
                 email_builder = EmailBuilder()
                 email_builder.set_email_address(email_address)
@@ -182,7 +182,8 @@ class EmailSender:
                 email_builder.set_body(email_body_builder.build().get_email_body())
                 email_data = email_builder.build().get_email_json()
 
-                
+                print(name, meeting_time[name]) 
+
 
                 # Send the email using the Graph API
                 response = requests.post(

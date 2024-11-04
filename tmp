@@ -1,9 +1,10 @@
-<subject>This email is for testing purposes.</subject>
+<subject>Hope you have a happy public holidy tomorrow. This email is for testing purposes,please check MS group chat for further information.</subject>
 <skeleton>
 <p><b>[salutation]</b></p>
 
 <p>I hope you are doing well.</p>
-I don't think I've mentioned this, but I find you to be the most friendly person on the PMO team!
+<p>I really appreciate your patience in this testing.</p>
+<p>I hope this time the salutation and time match what I expect them to be </p> 
 I was also wondering if I could see you at the office tomorrow at <b>[meeting_time]</b>?
 
 <p>Best regards,</p>
@@ -14,10 +15,9 @@ I was also wondering if I could see you at the office tomorrow at <b>[meeting_ti
 </skeleton>
 
 <recipients>
-Liliana Guzman <fenglu.cai@salvationarmy.org.au>; 
+Liliana Guzman <liliana.guzman@salvationarmy.org.au>; 
 Kelly Dauria <kelly.dauria@salvationarmy.org.au>; 
 Jordan Trainor <jordan.trainor@salvationarmy.org.au>; 
-Shim Marom <shim.marom@salvationarmy.org.au>
 Fenglu Cai <fenglu.cai@salvationarmy.org.au>
 
 </recipients>
